@@ -24,5 +24,8 @@
   "workspaces": [
     "packages/*",
     "apps/*"
-  ]
+  ],
+  "pnpm": {
+    "onlyBuiltDependencies": ["@swc/core", "esbuild", "nx"]
+  }
 }
