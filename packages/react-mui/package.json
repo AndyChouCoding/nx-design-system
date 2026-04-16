@@ -38,7 +38,7 @@
     "react-dom": "^18.0.0 || ^19.0.0"
   },
   "dependencies": {
-    "@andychoucoding/tokens": "github:AndyChouCoding/nx-design-system#main&path:packages/tokens"
+    "@andychoucoding/tokens": "AndyChouCoding/nx-design-system#path:packages/tokens"
   },
   "devDependencies": {
     "@types/react": "^19.2.14",
