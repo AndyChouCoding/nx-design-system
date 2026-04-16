@@ -14,6 +14,6 @@ export default defineConfig({
     '@mui/icons-material',
     '@emotion/react',
     '@emotion/styled',
-    '@andychoucoding/tokens',
+    // @andychoucoding/tokens is bundled into this package
   ],
 });

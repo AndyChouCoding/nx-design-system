@@ -114,9 +114,6 @@ importers:
 
   packages/react-mui:
     dependencies:
-      '@andychoucoding/tokens':
-        specifier: workspace:*
-        version: link:../tokens
       '@emotion/react':
         specifier: ^11.0.0
         version: 11.14.0(@types/react@19.2.14)(react@19.2.5)
@@ -136,14 +133,30 @@ importers:
         specifier: ^18.0.0 || ^19.0.0
         version: 19.2.5(react@19.2.5)
     devDependencies:
+      '@andychoucoding/tokens':
+        specifier: workspace:*
+        version: link:../tokens
       '@types/react':
         specifier: ^19.2.14
         version: 19.2.14
       '@types/react-dom':
         specifier: ^19.2.3
         version: 19.2.3(@types/react@19.2.14)
+      tsup:
+        specifier: ^8.5.1
+        version: 8.5.1(@swc/core@1.15.8(@swc/helpers@0.5.18))(jiti@2.4.2)(postcss@8.5.10)(typescript@5.9.3)(yaml@2.8.3)
+      typescript:
+        specifier: ~5.9.2
+        version: 5.9.3
 
-  packages/tokens: {}
+  packages/tokens:
+    devDependencies:
+      tsup:
+        specifier: ^8.5.1
+        version: 8.5.1(@swc/core@1.15.8(@swc/helpers@0.5.18))(jiti@2.4.2)(postcss@8.5.10)(typescript@5.9.3)(yaml@2.8.3)
+      typescript:
+        specifier: ~5.9.2
+        version: 5.9.3
 
 packages:
 

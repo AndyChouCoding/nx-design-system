@@ -2,12 +2,7 @@
   "name": "@andychoucoding/react-mui",
   "version": "0.1.0",
   "description": "React + MUI components for AndyChouCoding design system",
-  "keywords": [
-    "design-system",
-    "react",
-    "mui",
-    "components"
-  ],
+  "keywords": ["design-system", "react", "mui", "components"],
   "author": "AndyChouCoding",
   "license": "MIT",
   "sideEffects": false,
@@ -26,21 +21,18 @@
   ],
   "scripts": {
     "build": "tsup",
-    "prepare": "tsup",
     "dev": "tsup --watch"
   },
   "peerDependencies": {
-    "@emotion/react": "^11.0.0",
-    "@emotion/styled": "^11.0.0",
-    "@mui/icons-material": "^6.0.0",
-    "@mui/material": "^6.0.0",
     "react": "^18.0.0 || ^19.0.0",
-    "react-dom": "^18.0.0 || ^19.0.0"
-  },
-  "dependencies": {
-    "@andychoucoding/tokens": "AndyChouCoding/nx-design-system#path:packages/tokens"
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "@mui/material": "^6.0.0",
+    "@mui/icons-material": "^6.0.0",
+    "@emotion/react": "^11.0.0",
+    "@emotion/styled": "^11.0.0"
   },
   "devDependencies": {
+    "@andychoucoding/tokens": "workspace:*",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "tsup": "^8.5.1",
