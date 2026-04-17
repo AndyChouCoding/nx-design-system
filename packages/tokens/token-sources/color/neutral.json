@@ -1,0 +1,19 @@
+{
+  "color": {
+    "foreground": {
+      "black":              { "value": "#000000", "type": "color" },
+      "neutralDark":        { "value": "#232323", "type": "color" },
+      "neutralPrimary":     { "value": "#333333", "type": "color" },
+      "neutralPrimaryAlt":  { "value": "#666666", "type": "color" },
+      "neutralSecondary":   { "value": "#999999", "type": "color" },
+      "neutralTertiary":    { "value": "#B5B5B5", "type": "color" },
+      "neutralTertiaryAlt": { "value": "#D3D3D3", "type": "color" }
+    },
+    "background": {
+      "neutralLighterAlt": { "value": "#EDEBE9", "type": "color" },
+      "neutralLighter":    { "value": "#F3F2F1", "type": "color" },
+      "neutralLight":      { "value": "#F8F8F8", "type": "color" },
+      "white":             { "value": "#FFFFFF", "type": "color" }
+    }
+  }
+}

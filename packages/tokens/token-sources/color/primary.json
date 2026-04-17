@@ -1,0 +1,15 @@
+{
+  "color": {
+    "primary": {
+      "themeDarker":  { "value": "#0C1331", "type": "color" },
+      "themeDark":    { "value": "#161D44", "type": "color" },
+      "themeDarkAlt": { "value": "#1F2678", "type": "color" },
+      "themePrimary": { "value": "#1F2678", "type": "color" },
+      "themeSecondary": { "value": "#2F3788", "type": "color" },
+      "themeTertiary":  { "value": "#6167AE", "type": "color" },
+      "themeLight":     { "value": "#A7ABD6", "type": "color" },
+      "themeLighter":   { "value": "#CED0E9", "type": "color" },
+      "themeLightAlt":  { "value": "#E6E7F3", "type": "color" }
+    }
+  }
+}

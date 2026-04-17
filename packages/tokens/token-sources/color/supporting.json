@@ -1,0 +1,15 @@
+{
+  "color": {
+    "supporting": {
+      "supportDarker":     { "value": "#A56300", "type": "color" },
+      "supportDark":       { "value": "#C07300", "type": "color" },
+      "supportDarkAlt":    { "value": "#DA880D", "type": "color" },
+      "support":           { "value": "#EA9514", "type": "color" },
+      "supportSecondary":  { "value": "#EDA83F", "type": "color" },
+      "supportTertiary":   { "value": "#FAC36E", "type": "color" },
+      "supportLight":      { "value": "#F8CF91", "type": "color" },
+      "supportLighter":    { "value": "#F8DFB8", "type": "color" },
+      "supportLightAlt":   { "value": "#FDF2E2", "type": "color" }
+    }
+  }
+}

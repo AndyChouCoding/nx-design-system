@@ -1,0 +1,22 @@
+{
+  "color": {
+    "error": {
+      "errorDark":    { "value": "#83060E", "type": "color" },
+      "errorDarkAlt": { "value": "#AA0713", "type": "color" },
+      "error":        { "value": "#C30F1C", "type": "color" },
+      "errorLight":   { "value": "#F9E8E9", "type": "color" }
+    },
+    "success": {
+      "successDark":    { "value": "#538F04", "type": "color" },
+      "successDarkAlt": { "value": "#60A405", "type": "color" },
+      "success":        { "value": "#68B500", "type": "color" },
+      "successLight":   { "value": "#DEF4DC", "type": "color" }
+    },
+    "warning": {
+      "warningDark":    { "value": "#C98007", "type": "color" },
+      "warningDarkAlt": { "value": "#E0910F", "type": "color" },
+      "warning":        { "value": "#F2A019", "type": "color" },
+      "warningLight":   { "value": "#FCF0D1", "type": "color" }
+    }
+  }
+}

@@ -2,7 +2,11 @@
   "name": "@andychoucoding/tokens",
   "version": "0.1.0",
   "description": "Design tokens for AndyChouCoding design system",
-  "keywords": ["design-system", "design-tokens", "tokens"],
+  "keywords": [
+    "design-system",
+    "design-tokens",
+    "tokens"
+  ],
   "author": "AndyChouCoding",
   "license": "MIT",
   "sideEffects": false,
@@ -14,21 +18,27 @@
       "types": "./dist/index.d.ts",
       "import": "./dist/index.mjs",
       "require": "./dist/index.js"
-    }
+    },
+    "./variables.css": "./dist/variables.css"
   },
   "files": [
     "dist"
   ],
   "scripts": {
-    "build": "tsup",
+    "build:tokens": "node --import=tsx/esm style-dictionary.config.mts",
+    "build": "pnpm build:tokens && tsup",
     "dev": "tsup --watch"
   },
   "devDependencies": {
     "tsup": "^8.5.1",
+    "tsx": "^4.21.0",
     "typescript": "~5.9.2"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
     "access": "public"
+  },
+  "dependencies": {
+    "style-dictionary": "^5.4.0"
   }
 }

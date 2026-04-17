@@ -6,6 +6,9 @@ apps/**/dist
 tmp
 out-tsc
 
+# Style Dictionary generated files (rebuilt during build)
+packages/*/src/generated/
+
 # dependencies
 node_modules
 
