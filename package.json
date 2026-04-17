@@ -3,12 +3,16 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "pnpm nx run-many --target=build --all",
+    "build": "pnpm --filter './packages/*' build",
     "storybook": "pnpm nx run storybook:storybook",
-    "build-storybook": "pnpm nx run storybook:build-storybook"
+    "build-storybook": "pnpm nx run storybook:build-storybook",
+    "changeset": "changeset",
+    "version": "changeset version",
+    "release": "pnpm build && changeset publish"
   },
   "private": true,
   "devDependencies": {
+    "@changesets/cli": "^2.30.0",
     "@nx/js": "22.6.5",
     "@nx/react": "22.6.5",
     "@nx/storybook": "22.6.5",
